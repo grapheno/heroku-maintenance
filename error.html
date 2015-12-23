@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AgaveTI - Mantenimiento</title>
+  <meta name="description" content="Website en Mantenimiento">
+  <meta name="author" content="AgaveTI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+  <style>
+      body {
+          height: 100vh;
+      }
+      footer, p { text-align: right; }
+      .image {
+          height: 100vh;
+          background-image: url("images/error.jpg");
+          background-size: auto 50%;
+          background-repeat: no-repeat;
+          background-position: bottom left;
+      }
+      @media screen and (min-width: 550px){
+          .row {
+              padding-top: 20%;
+          }
+      }
+      @media screen and (max-width: 549px){
+          .image {
+              background-size: 100% auto;
+          }
+      }
+  </style>
+      <div class="image">
+          <div class="container">
+            <div class="row">
+                <h4>Bueno, esto es incómodo..</h4>
+                <p>
+                    Se ha encontrado un error en el sistema, lamentámos las molestias. <br>
+                    Aunque el error ha sido informado, puedes recibir seguimiento personalizado 
+                    en
+                    <a href="mailto:hola@agaveti.com">hola@agaveti.com</a>.
+                </p>
+                <footer>
+                    <a href="http://www.agaveti.com" target="_blank" class="button button-primary">AgaveTI</a>
+                </footer>
+              </div>
+          </div>
+      </div>
+</body>
+</html>
